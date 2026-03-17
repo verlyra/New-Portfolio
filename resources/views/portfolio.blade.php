@@ -79,7 +79,7 @@
         <!-- HEADER SECTION -->
         <header class="mb-6 flex flex-col md:flex-row items-center gap-4 md:gap-6 border-b-2 border-pink-900 pb-6 text-center md:text-left">
             <div class="profile-frame shadow-[0_0_20px_rgba(255,118,216,0.4)]">
-                <img src="/images/pfp.jpeg" alt="Verly" class="w-full h-full object-cover bg-pink-950">
+                <img src="{{ asset('images/pfp.jpeg') }}" alt="Verly" class="w-full h-full object-cover bg-pink-950">
             </div>
 
             <div class="flex-1">
@@ -150,7 +150,9 @@
                         <div class="min-w-[160px] md:min-w-[180px] snap-center">
                             <div class="border-2 border-pink-900 p-1 bg-black group">
                                 <div class="relative overflow-hidden aspect-[3/4] bg-pink-950">
-                                    <img src="/images/digitalart.jpeg" alt="Commission 04" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                                    <img src="{{ asset('images/digitalart.jpeg')}}" 
+                                        alt="Commission 04" 
+                                        class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
                                 </div>
                                 <p class="text-[8px] mt-2 text-center text-pink-400 font-bold uppercase tracking-tighter">Digital_art_01</p>
                             </div>
@@ -161,7 +163,9 @@
                         <div class="min-w-[160px] md:min-w-[180px] snap-center">
                             <div class="border-2 border-pink-900 p-1 bg-black group">
                                 <div class="relative overflow-hidden aspect-[3/4] bg-pink-950">
-                                    <img src="/images/gundam.png" alt="Commission 04" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                                    <img src="{{ asset('images/gundam.png')}}" 
+                                        alt="Commission 04" 
+                                        class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
                                 </div>
                                 <p class="text-[8px] mt-2 text-center text-pink-400 font-bold uppercase tracking-tighter">Digital_art_02</p>
                             </div>
@@ -172,7 +176,9 @@
                             <div class="border-2 border-pink-900 p-1 bg-black group">
                                 <div class="relative overflow-hidden aspect-[3/4] bg-pink-950">
                                     <!-- Loading Placeholder Efek Pixel -->
-                                    <img src="/images/Integritas.png" alt="Commission 01" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                                    <img src="{{ asset('images/Integritas.png')}}" 
+                                        alt="Commission 01" 
+                                        class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
                                 </div>
                                 <p class="text-[8px] mt-2 text-center text-pink-400 font-bold uppercase tracking-tighter">Poster_v1</p>
                             </div>
@@ -182,7 +188,9 @@
                         <div class="min-w-[160px] md:min-w-[180px] snap-center">
                             <div class="border-2 border-pink-900 p-1 bg-black group">
                                 <div class="relative overflow-hidden aspect-[3/4] bg-pink-950">
-                                    <img src="/images/delp.jpg" alt="Commission 02" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                                    <img src="{{ asset('images/delp.jpg')}}" 
+                                        alt="Commission 02" 
+                                        class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
                                 </div>
                                 <p class="text-[8px] mt-2 text-center text-pink-400 font-bold uppercase tracking-tighter">Poster_v2</p>
                             </div>
@@ -191,7 +199,10 @@
                         <!-- CARD 3 -->
                         <div class="min-w-[160px] md:min-w-[180px] snap-center">
                             <div class="border-2 border-pink-900 p-1 bg-black group">
-                                <img src="/images/ict.png" alt="Commission 03" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
+                                <div class="relative overflow-hidden aspect-[3/4] bg-pink-950">
+                                    <img src="{{ asset('ict.png')}}" 
+                                        alt="Commission 03" 
+                                        class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
                                 </div>
                                 <p class="text-[8px] mt-2 text-center text-pink-400 font-bold uppercase tracking-tighter">poster_v3</p>
                             </div>
