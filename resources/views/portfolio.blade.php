@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verly's Portfolio</title>
-    <link rel="icon" type="image/png" href="{{ asset('images/pfp.jpeg') }}">
+    <link rel="icon" href="{{ asset('images/pfp.jpeg') }}?v=2">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
     
