@@ -201,7 +201,7 @@
                         <div class="min-w-[160px] md:min-w-[180px] snap-center">
                             <div class="border-2 border-pink-900 p-1 bg-black group">
                                 <div class="relative overflow-hidden aspect-[3/4] bg-pink-950">
-                                    <img src="{{ asset('ict.png')}}" 
+                                    <img src="{{asset('images/ict.png')}}" 
                                         alt="Commission 03" 
                                         class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
                                 </div>
