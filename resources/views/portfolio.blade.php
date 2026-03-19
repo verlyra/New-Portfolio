@@ -276,7 +276,7 @@
                         <!-- KEPRABON -->
                         <div class="relative">
                             <div class="flex flex-col gap-1 mb-2">
-                                <h3 class="text-white font-bold text-sm md:text-base underline decoration-pink-500 italic">Financial Information System – Nasi Liwet Keprabon Bu Darmi</h3>
+                                <h3 class="text-white font-bold text-sm md:text-base underline decoration-pink-500 italic">Financial Information System – Restaurant Nasi Liwet Keprabon Bu Darmi</h3>
                                 <span class="text-pink-500 text-[9px] font-bold uppercase">Nov 2025 - Feb 2026</span>
                                 <a href="https://github.com/verlyra/KEPRABON" target="_blank"
                                 class="text-[10px] text-green-400 hover:text-white font-mono">
