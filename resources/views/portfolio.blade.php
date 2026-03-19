@@ -89,7 +89,6 @@
                     SYSTEM_STATUS: <span class="text-white underline">[ ENCRYPTED ]</span> | 
                     NODE: <span class="text-yellow-400">[ JAKARTA ]</span>
                 </p>
-                <!-- Uptime khusus Mobile (muncul di bawah status) -->
                 <p class="text-[9px] mt-2 md:hidden">UPTIME: <span id="uptime-mobile">0</span>s | OS: VRA</p>
             </div>
             
@@ -139,8 +138,6 @@
                 <!-- 3. GRAPHIC DESIGN ARCHIVE -->
                 <div class="pixel-border p-4">
                     <h2 class="pixel-font text-[9px] md:text-[10px] mb-4 bg-pink-900 p-1 text-white text-center uppercase">Graphic_Archive.db</h2>
-                    
-                    <!-- Teks Pengantar -->
                     <div class="text-[10px] text-pink-200 mb-4 leading-relaxed italic border-l-2 border-pink-500 pl-2">
                     Rendering ideas into visual form — here are some of my commissioned works, made with creativity and love💖
                     </div>
@@ -159,8 +156,6 @@
                             </div>
                         </div>
                         
-                        
-                        <!-- CARD 4 -->
                         <div class="min-w-[160px] md:min-w-[180px] snap-center">
                             <div class="border-2 border-pink-900 p-1 bg-black group">
                                 <div class="relative overflow-hidden aspect-[3/4] bg-pink-950">
@@ -172,7 +167,6 @@
                             </div>
                         </div>
                         
-                        <!-- CARD 1: Ganti URL dengan hasil commission kamu -->
                         <div class="min-w-[160px] md:min-w-[180px] snap-center">
                             <div class="border-2 border-pink-900 p-1 bg-black group">
                                 <div class="relative overflow-hidden aspect-[3/4] bg-pink-950">
@@ -213,19 +207,18 @@
 
                     </div>
 
-                    <!-- Navigasi Petunjuk (Hanya muncul di Desktop) -->
                     <div class="hidden md:block text-right mt-1">
                         <span class="text-[7px] text-pink-800 animate-pulse">SCROLL_HORIZONTAL_TO_VIEW >></span>
                     </div>
                 </div>
             </div>
 
-            <!-- MAIN CONTENT (Bawah di HP, Kanan di Desktop) -->
+            <!-- MAIN CONTENT -->
             <div class="lg:col-span-8">
                 <!-- SYSTEM STATUS PANEL -->
                 <div class="mt-8 pb-6 text-[12px]">
 
-                    <!-- TITLE (DI LUAR BOX, DI ATAS) -->
+                    <!-- TITLE -->
                     <p class="text-[20px] pixel-font text-pink-300 mb-4">
                         [ SYSTEM_INFO ]
                     </p>
